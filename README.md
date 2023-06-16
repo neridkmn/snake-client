@@ -14,4 +14,4 @@ https://github.com/neridkmn/snake-client/assets/128938408/cffe0277-c62f-4d06-83a
 ## Getting Started
 
 - Follow steps inside the snek server repo to run the server side
-- Run the development snake client using the `node play.js` command.
+- Run the development snake client using the `node play.js YOUR_INITIALS` command. `YOUR_INITIALS` should be up to three letters (preferably uppercased). If you don't provide an argument, you will be assigned a default name.
