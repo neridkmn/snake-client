@@ -4,11 +4,9 @@ Snake game is a very popular video game. It is a video game concept where the pl
 
 This is simply a multiplayer take on the genre.
 
-Before you can run this client, you will need to be running the server side which you can download and install from here. 
+Before you can run this client, you will need to be running the server side which you can download and install from [here](https://github.com/lighthouse-labs/snek-multiplayer). 
 
 ## Final Product
-
-!["Video of the final product"](#1)
 
 https://github.com/neridkmn/snake-client/assets/128938408/cffe0277-c62f-4d06-83a3-f46b0bed69b5
 
