@@ -1,3 +1,5 @@
+//Implemented Constant Module requirements from Compass.
+
 const IP = "localhost";
 const PORT = 50542;
 
