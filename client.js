@@ -15,6 +15,30 @@ const connect = function() {
     conn.write('Name: NRM');
   });
 
+  conn.on("connect", () => {
+    setTimeout(() => {
+      conn.write('Move: up');
+    }, 500);
+  });
+
+  conn.on("connect", () => {
+    setTimeout(() => {
+      conn.write('Move: left');
+    }, 1000);
+  });
+
+  conn.on("connect", () => {
+    setTimeout(() => {
+      conn.write('Move: down');
+    }, 1500);
+  });
+
+  conn.on("connect", () => {
+    setTimeout(() => {
+      conn.write('Move: left');
+    }, 2000);
+  });
+
   conn.on("data", (data) => {
     console.log("Server says: ", data);
   });
