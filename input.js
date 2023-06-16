@@ -14,8 +14,9 @@ const setupInput = (conn) => {
 
 };
 
-
 const handleUserInput = function(key) {
+  let message = "Hi!";
+
   if (key === '\u0003') {
     process.exit();
   }
@@ -28,7 +29,11 @@ const handleUserInput = function(key) {
   } else if (key === "d") {
     connection.write("Move: right", () => console.log("Sent command: Move right"));
   }
+  else if (key === "m") {
+    connection.write(`Say: ${message}`);
+  }
 };
+
 
 module.exports = {
   setupInput
