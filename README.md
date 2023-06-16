@@ -8,8 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["screenshot description"](#)
-!["screenshot description"](#)
+!["Video of the final product"](#1)
 
 https://github.com/neridkmn/snake-client/assets/128938408/cffe0277-c62f-4d06-83a3-f46b0bed69b5
 
