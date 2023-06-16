@@ -24,7 +24,7 @@ const handleUserInput = function(key) {
     return;
   }
 
-  connection.write(COMMANDS[key], () => console.log(`Sent command: ${COMMANDS[key]}`));
+  connection.write(COMMANDS[key]);
 };
 
 module.exports = {
